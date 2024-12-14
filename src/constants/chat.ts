@@ -133,20 +133,48 @@ export const modelCost = {
     completion: { price: 0.03, unit: 1000 },
   },
   'gpt-4o': {
-    prompt: { price: 5.00, unit: 1_000_000 },
-    completion: { price: 15.00, unit: 1_000_000 },
+    prompt: { price: 2.50, unit: 1_000_000 },
+    completion: { price: 10.00, unit: 1_000_000 },
+  },
+  'chatgpt-4o-latest': {
+    prompt: { price: 2.50, unit: 1_000_000 },
+    completion: { price: 10.00, unit: 1_000_000 },
+  },
+  'gpt-4o-2024-11-20': {
+    prompt: { price: 2.50, unit: 1_000_000 },
+    completion: { price: 10.00, unit: 1_000_000 },
+  },
+  'gpt-4o-2024-08-06': {
+    prompt: { price: 2.50, unit: 1_000_000 },
+    completion: { price: 10.00, unit: 1_000_000 },
   },
   'gpt-4o-2024-05-13': {
     prompt: { price: 5.00, unit: 1_000_000 },
     completion: { price: 15.00, unit: 1_000_000 },
   },
   'gpt-4o-mini': {
-    prompt: { price: 0.150, unit: 1_000_000 },
-    completion: { price: 0.600, unit: 1_000_000 },
+    prompt: { price: 0.15, unit: 1_000_000 },
+    completion: { price: 0.60, unit: 1_000_000 },
   },
   'gpt-4o-mini-2024-07-18': {
-    prompt: { price: 0.150, unit: 1_000_000 },
-    completion: { price: 0.600, unit: 1_000_000 },
+    prompt: { price: 0.15, unit: 1_000_000 },
+    completion: { price: 0.60, unit: 1_000_000 },
+  },
+  'o1-preview': {
+    prompt: { price: 15.00, unit: 1_000_000 },
+    completion: { price: 60.00, unit: 1_000_000 },
+  },
+  'o1-preview-2024-09-12': {
+    prompt: { price: 15.00, unit: 1_000_000 },
+    completion: { price: 60.00, unit: 1_000_000 },
+  },
+  'o1-mini': {
+    prompt: { price: 3.00, unit: 1_000_000 },
+    completion: { price: 12.00, unit: 1_000_000 },
+  },
+  'o1-mini-2024-09-12': {
+    prompt: { price: 3.00, unit: 1_000_000 },
+    completion: { price: 12.00, unit: 1_000_000 },
   },
 };
 
