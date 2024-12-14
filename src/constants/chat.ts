@@ -29,15 +29,22 @@ export const modelOptions: ModelOptions[] = [
   'gpt-4-turbo',
   'gpt-4-turbo-2024-04-09',
   'gpt-4o',
+  'chatgpt-4o-latest',
+  'gpt-4o-2024-11-20',
+  'gpt-4o-2024-08-06',
   'gpt-4o-2024-05-13',
   // 'gpt-3.5-turbo-0301',
   // 'gpt-4-0314',
   // 'gpt-4-32k-0314',
   'gpt-4o-mini',
-  'gpt-4o-mini-2024-07-18'
+  'gpt-4o-mini-2024-07-18',
+  'o1-preview',
+  'o1-preview-2024-09-12',
+  'o1-mini',
+  'o1-mini-2024-09-12',
 ];
 
-export const defaultModel = 'gpt-3.5-turbo';
+export const defaultModel = 'gpt-4o-mini';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
@@ -58,9 +65,16 @@ export const modelMaxToken = {
   'gpt-4-turbo': 128000,
   'gpt-4-turbo-2024-04-09': 128000,
   'gpt-4o': 128000,
+  'chatgpt-4o-latest': 128000,
+  'gpt-4o-2024-11-20': 128000,
+  'gpt-4o-2024-08-06': 128000,
   'gpt-4o-2024-05-13': 128000,
   'gpt-4o-mini': 128000,
-  'gpt-4o-mini-2024-07-18': 128000
+  'gpt-4o-mini-2024-07-18': 128000,
+  'o1-preview': 32768,
+  'o1-preview-2024-09-12': 32768,
+  'o1-mini': 65536,
+  'o1-mini-2024-09-12': 65536,
 };
 
 export const modelCost = {
