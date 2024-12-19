@@ -42,6 +42,8 @@ export const modelOptions: ModelOptions[] = [
   'o1-preview-2024-09-12',
   'o1-mini',
   'o1-mini-2024-09-12',
+  'o1',
+  'o1-2024-12-17',
 ];
 
 export const defaultModel = 'gpt-4o-mini';
@@ -71,10 +73,12 @@ export const modelMaxToken = {
   'gpt-4o-2024-05-13': 128000,
   'gpt-4o-mini': 128000,
   'gpt-4o-mini-2024-07-18': 128000,
-  'o1-preview': 32768,
-  'o1-preview-2024-09-12': 32768,
-  'o1-mini': 65536,
-  'o1-mini-2024-09-12': 65536,
+  'o1-preview': 128000,
+  'o1-preview-2024-09-12': 128000,
+  'o1-mini': 128000,
+  'o1-mini-2024-09-12': 128000,
+  'o1': 200000,
+  'o1-2024-12-17': 200000,
 };
 
 export const modelCost = {
@@ -189,6 +193,14 @@ export const modelCost = {
   'o1-mini-2024-09-12': {
     prompt: { price: 3.00, unit: 1_000_000 },
     completion: { price: 12.00, unit: 1_000_000 },
+  },
+  'o1': {
+    prompt: { price: 15.00, unit: 1_000_000 },
+    completion: { price: 60.00, unit: 1_000_000 },
+  },
+  'o1-2024-12-17': {
+    prompt: { price: 15.00, unit: 1_000_000 },
+    completion: { price: 60.00, unit: 1_000_000 },
   },
 };
 

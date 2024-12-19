@@ -50,6 +50,8 @@ export interface Folder {
 }
 
 export type ModelOptions =
+  | 'o1'
+  | 'o1-2024-12-17'
   | 'o1-preview'
   | 'o1-preview-2024-09-12'
   | 'o1-mini'
